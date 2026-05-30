@@ -1,0 +1,1 @@
+bstrings.exe -f "C:\Path\To\Your\LiveKernelDump.DMP" --lr "(?i)(?:\b(?:powershell|cmd|wscript|cscript)\b|iwr|iex|invoke|encodedcommand|decoded|base64|github|pastebin|\.exe|\.bat|\.vbs)" -o ".\FilelessExecutionEvidence.txt"

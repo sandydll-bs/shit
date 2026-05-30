@@ -1,0 +1,6 @@
+Applicazione > 3079 ---> [Eliminazione Journal]
+Applicazione > 1000-1001 ---> [Errore regsvr32]
+Sicurezza > 1102 ---> [Eliminazione Eventi]
+Sicurezza > 4616  ---> [Cambio d'orario]
+Sicurezza > 4798 (Regedit.exe)  ---> [Ereditarietà Regedit]
+Sistema > 104 ---> [Eliminazione Registro]

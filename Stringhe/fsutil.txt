@@ -1,0 +1,416 @@
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i /C:".pif" /i /C:"jnativehook" /i /C:"?" > all.txt
+
+DLL: fsutil usn readjournal C: csv | findstr /i /C:".dll" > 
+
+Utility  »» Trovare Directory
+
+Stringa 1 » fsutil file queryFileNamebyid C:\ 0x
+
+Utility  »» JnativeHook
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"JnativeHook" > Jar.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > jh.txt
+
+Utility  »» File Sola Lettura
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:0x00008000 /i /C:0x80008000 | findstr /i /C:"Sola lettura | Archivio" > SolaLettura.txt
+
+Utility  »» Cacls
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:0,3,0,96 | findstr /i /C:prefetch | findstr /i /C:"%date%" > Cacls.txt
+
+Utility  »» Cacls o modifica Prefetch
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00000800" /i /C:"0x80000800" | findstr /i /C:"Prefetch" > modificasicurezza.txt 
+
+Utility  »» Cacls o modifica EventVWR
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00000800" /i /C:"0x80000800" | findstr /i /C:"Logs" > ModificaEventvwr.txt 
+
+Utility  »» Prefetch Eliminato
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i /C:"%date%" > PrefetchEliminato.txt
+
+Utility  »» File Eliminati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"0x80000200" |findstr /i /C:.exe^" /i /C:.com^" /i /C:.cmd^" /i /C:.pif^" /i /C:.bat^" /i /C:"?" > fileliminati.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"0x80000200" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.bat^ /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.com^ /i /C:.rar^" > Eliminati.txt
+
+Utility  »» File Rinominati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /C:"0x00001000" | findstr /i /C:"%date%" > rinominati.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"%date%"| findstr /i /C:"0x00001000" /i /C:"0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.bat^ /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.com^ /i /C:.rar^" /i /C:.reg^" > Rinominati.txt
+
+Utility  »» File Spostati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:”0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^" /i /C:.cmd^" /i /C:".jar" /i /C:.pif^" /i /C:.bat^" /i /C:"?" > filemoved.txt
+
+Utility  »» Caratteri Speciali
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"?" | findstr /i /C:"%date%"  > CaratteriSpeciali.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"?" > SpecialiFiltroOra
+
+Utility  »» Type
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00200000" /i /C:"0x80200120" | findstr /i /C:"%date%" > Type.txt
+
+Utility  »» Generic Cheat Check
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:.exe^" /i /C:.com^" /i /C:.cmd^" /i /C:.pif^" /i /C:.bat^" /i /C:"?" | findstr /i /C:"%date%" | findstr /i /C:"0x00000100" > GenericCheatCheck.txt
+
+Utility  »» Regsvr32
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:14/12/2023 | findstr /i /C:regsvr32 | findstr /i /R /C:"[0-9],0x00000100" > RegSvr32.txt
+
+Utility  »» Dll Injectati da Notepad
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00000100" | findstr /i /C:"%date%" | findstr /i /C:".dll.lnk" > NotepadDll.txt
+
+Utility  »» Processi Riavviati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:".pf" | findstr /i /C:"%date%" | findstr /i /C:"net" /i /C:"net1" > restartprocesses.txt
+Utility  »» File eliminati, JnativeHook, dll avviati da cmd e jar avviati da cmd
+
+Utility  »» Clients avviati da cmd
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i "%date%" | findstr /i ".exe" | findstr /i "0x00000102" > Cmds.txt
+
+Utility  »» File aperti con TaskManager (Gestione  Attività)
+
+Stringa 1 » fsutil usn readJournal c: csv | findstr /i "04/12/2023" | findstr /i "0x80000102" | findstr /i ".pf" | findstr /i "0,3,0,136" > TaskMng1.txt
+
+Nota Bene »»»  Vedere l’orario dell’ultimo exe
+Stringa 2 »  fsutil usn readJournal c: csv | findstr /i "04/12/2023" | findstr /i ".pf" | findstr /i "taskmgr" > TaskMng2.txt
+
+Nota Bene »»»  Mettere a confronto orario ultimo log della prima stringa all'apertura del taskmgr
+
+Utility  »» Java-Jar
+
+Stringa 1 » fsutil usn readJournal c: csv |findstr /i /C:0x00008000|findstr /i /C:timestamp
+
+Utility  »» File Eliminati + Filtro ora
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.mp4^" /i /C:.bat^ /i /C:.sys^" /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.vb^" /i /C:.shs^" /i /C:.com^ /i /C:.rar^" /i /C:.docx^" /i /C:.doc^" /i /C:.reg^" > EliminatiFiltroOra.txt
+
+Utility  »» File Rinominati + Filtro ora
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.mp4^" /i /C:.bat^ /i /C:.sys^" /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.vb^" /i /C:.shs^" /i /C:.com^ /i /C:.rar^" /i /C:.docx^" /i /C:.doc^" /i /C:.reg^" > RinominatiFiltroOra.txt
+
+Utility  »» File eliminati con estensione .ahk
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /c:.ahk | findstr /i /c:delete > ahkEliminati.txt
+
+Utility  »» File con estensione .ahk a cui è stata cambiata estensione.
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /c:rename > ahkEstensioni.txt
+
+JnatiVehook
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > DeletedJnativehooks.txt
+
+
+Deleted pf
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i /C:"%date%" > PFfileDelted.txt
+
+Deleted files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> DeletedFiles.txt
+
+Created files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00000100 >> Createdfiles.txt
+Old files name
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00001000 >> oldnamefiles.txt
+
+New name fils
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00002000 >> newnamefiles.txt
+
+
+wmic
+fsutil usn readjournal c: csv | findstr /i /c:"0x00002020" /c:"0x00002021" /c:0x80000102 | findstr /i /c:.pf >> Wmic.txt
+
+replace
+fsutil usn readjournal c: csv | findstr /i /R /C:"0x80000200" /i /C:"0x00001000" /i /C:"0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^" /i /C:.cmd^" /i /C:".jar" /i /C:.pif^" /i /C:.bat^" /i /C:"?" /i /C:.txt^" > replace.txt
+
+
+EVERYTHING
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.exe^" > allexes.txt
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.dll^" > alldlls.txt
+
+STRINGHE DEL JOURNAL
+Utility  »» Trovare Directory
+
+Stringa 1 » fsutil file queryFileNamebyid C:\ 0x
+
+Utility  »» JnativeHook
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"JnativeHook" > Jar.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > jh.txt
+
+Utility  »» File Sola Lettura
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:0x00008000 /i /C:0x80008000 | findstr /i /C:"Sola lettura | Archivio" > SolaLettura.txt
+
+Utility  »» Cacls
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:0,3,0,96 | findstr /i /C:prefetch | findstr /i /C:"%date%" > Cacls.txt
+
+Utility  »» Cacls o modifica Prefetch
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00000800" /i /C:"0x80000800" | findstr /i /C:"Prefetch" > modificasicurezza.txt 
+
+Utility  »» Cacls o modifica EventVWR
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00000800" /i /C:"0x80000800" | findstr /i /C:"Logs" > ModificaEventvwr.txt 
+
+Utility  »» Prefetch Eliminato
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i /C:"%date%" > PrefetchEliminato.txt
+
+Utility  »» File Eliminati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"0x80000200" |findstr /i /C:.exe^" /i /C:.com^" /i /C:.cmd^" /i /C:.pif^" /i /C:.bat^" /i /C:"?" > fileliminati.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"0x80000200" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.bat^ /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.com^ /i /C:.rar^" > Eliminati.txt
+Utility  »» File Rinominati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /C:"0x00001000" | findstr /i /C:"%date%" > rinominati.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"%date%"| findstr /i /C:"0x00001000" /i /C:"0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.bat^ /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.com^ /i /C:.rar^" /i /C:.reg^" > Rinominati.txt
+
+Utility  »» File Spostati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:”0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^" /i /C:.cmd^" /i /C:".jar" /i /C:.pif^" /i /C:.bat^" /i /C:"?" > filemoved.txt
+
+Utility  »» Caratteri Speciali
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"?" | findstr /i /C:"%date%"  > CaratteriSpeciali.txt
+
+Stringa 2 » fsutil usn readjournal c: csv | findstr /i /C:"?" > SpecialiFiltroOra
+
+Utility  »» Type
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00200000" /i /C:"0x80200120" | findstr /i /C:"%date%" > Type.txt
+
+Utility  »» Generic Cheat Check
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:.exe^" /i /C:.com^" /i /C:.cmd^" /i /C:.pif^" /i /C:.bat^" /i /C:"?" | findstr /i /C:"%date%" | findstr /i /C:"0x00000100" > GenericCheatCheck.txt
+
+Utility  »» Regsvr32
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:14/12/2023 | findstr /i /C:regsvr32 | findstr /i /R /C:"[0-9],0x00000100" > RegSvr32.txt
+
+Utility  »» Dll Injectati da Notepad
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"0x00000100" | findstr /i /C:"%date%" | findstr /i /C:".dll.lnk" > NotepadDll.txt
+
+Utility  »» Processi Riavviati
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:".pf" | findstr /i /C:"%date%" | findstr /i /C:"net" /i /C:"net1" > restartprocesses.txt
+
+Utility  »» File eliminati, JnativeHook, dll avviati da cmd e jar avviati da cmd
+
+Utility  »» Clients avviati da cmd
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i "%date%" | findstr /i ".exe" | findstr /i "0x00000102" > Cmds.txt
+
+Utility  »» File aperti con TaskManager (Gestione  Attività)
+
+Stringa 1 » fsutil usn readJournal c: csv | findstr /i "04/12/2023" | findstr /i "0x80000102" | findstr /i ".pf" | findstr /i "0,3,0,136" > TaskMng1.txt
+
+Nota Bene »»»  Vedere l’orario dell’ultimo exe
+Stringa 2 »  fsutil usn readJournal c: csv | findstr /i "04/12/2023" | findstr /i ".pf" | findstr /i "taskmgr" > TaskMng2.txt
+
+Nota Bene »»»  Mettere a confronto orario ultimo log della prima stringa all'apertura del taskmgr
+
+Utility  »» Java-Jar
+
+Stringa 1 » fsutil usn readJournal c: csv |findstr /i /C:0x00008000|findstr /i /C:timestamp
+
+
+Utility  »» File Eliminati + Filtro ora
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.mp4^" /i /C:.bat^ /i /C:.sys^" /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.vb^" /i /C:.shs^" /i /C:.com^ /i /C:.rar^" /i /C:.docx^" /i /C:.doc^" /i /C:.reg^" > EliminatiFiltroOra.txt
+Utility  »» File Rinominati + Filtro ora
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.mp4^" /i /C:.bat^ /i /C:.sys^" /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.vb^" /i /C:.shs^" /i /C:.com^ /i /C:.rar^" /i /C:.docx^" /i /C:.doc^" /i /C:.reg^" > RinominatiFiltroOra.txt
+
+Utility  »» File eliminati con estensione .ahk
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /c:.ahk | findstr /i /c:delete > ahkEliminati.txt
+
+Utility  »» File con estensione .ahk a cui è stata cambiata estensione.
+
+Stringa 1 » fsutil usn readjournal c: csv | findstr /i /c:rename > ahkEstensioni.txt
+
+JnatiVehook
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > DeletedJnativehooks.txt
+
+
+Deleted pf
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i /C:"%date%" > PFfileDelted.txt
+
+Deleted files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> DeletedFiles.txt
+
+Created files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00000100 >> Createdfiles.txt
+
+Old files name
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00001000 >> oldnamefiles.txt
+
+New name fils
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00002000 >> newnamefiles.txt
+
+
+wmic
+fsutil usn readjournal c: csv | findstr /i /c:"0x00002020" /c:"0x00002021" /c:0x80000102 | findstr /i /c:.pf >> Wmic.txt
+
+replace
+fsutil usn readjournal c: csv | findstr /i /R /C:"0x80000200" /i /C:"0x00001000" /i /C:"0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^" /i /C:.cmd^" /i /C:".jar" /i /C:.pif^" /i /C:.bat^" /i /C:"?" /i /C:.txt^" > replace.txt
+
+
+EVERYTHING
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.exe^" > allexes.txt
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.dll^" > alldlls.txt
+
+exe: fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> FileEliminati.txt
+
+all(raplace): fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i /C:".pif" /i /C:"jnativehook" /i /C:"?" > all.txt
+
+
+deleted Jnativehooks
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > DeletedJnativehooks.txt
+
+Python files 
+ fsutil usn readjournal C: csv | findstr /i /C:".py" >> PyFilesExecuted.txt
+
+Dll files
+fsutil usn readjournal C: csv | findstr /i /C:".dll" >> DllFilesExecuted.txt
+fsutil usn readjournal C: csv | findstr /i /C:".jar" >> JarFilesExecuted.txt
+
+Bat files 
+fsutil usn readjournal C: csv | findstr /i /C:".bat" >> BatFilesExecuted.txt
+
+Deleted pf
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i /C:"%date%" > PFfileDelted.txt
+
+Deleted files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> DeletedFiles.txt
+
+Created files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00000100 >> Createdfiles.txt
+
+Old files name
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00001000 >> oldnamefiles.txt
+
+New name fils
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00002000 >> newnamefiles.txt
+
+Dumps usn journal
+fsutil usn readJournal C: csv > Readable.txt (Dumps USN Journal into a readable format)
+
+Special character
+fsutil usn readjournal c: csv | findstr /i /C:"?" | findstr /i /C:"%date%" >> specialcaracters.txt
+
+wmic
+fsutil usn readjournal c: csv | findstr /i /c:"0x00002020" /c:"0x00002021" /c:0x80000102 | findstr /i /c:.pf >> Wmic.txt
+fsutil file queryfilenamebyid C:\ 00000000000000000001000000014f74
+
+
+
+EVERYTHING
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.exe^" > all.txt
+
+
+fsutil usn readjournal c: csv | findstr /i /C:.exe >> client.txt
+
+fsutil usn readjournal c: csv | findstr /i /c:0x80000200 /i  /c:0x00001000 /i  /c:0x00002000| findstr /i /C:".pf" /i /C:.exe  /i /C:".bat" /i /C:"cmd" /i /C:".jar"  /i /C:".dll" /i /C:".jnativehook" /i /C:".?" >> all.txt
+
+
+fsutil usn readjournal c: csv | findstr /i /C:"JnativeHook" > Jar.txt
+
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"0x80000200" |findstr /i /C:.exe^" /i /C:.com^" /i /C:.cmd^" /i /C:.pif^" /i /C:.bat^" /i /C:"?" > fileliminati.txt
+
+
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"0x80000200" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^ /i /C:.jar^" /i /C:.pif^" /i /C:.bat^ /i /C:.zip^" /i /C:.cmd^" /i /C:.?^" /i /C:.com^ /i /C:.rar^" > Eliminati.txt
+
+
+fsutil usn readjournal c: csv | findstr /i /C:14/12/2023 | findstr /i /C:regsvr32 | findstr /i /R /C:"[0-9],0x00000100" > RegSvr32.txt
+
+fsutil usn readjournal c: csv | findstr /i /C:"0x00000100" | findstr /i /C:"%date%" | findstr /i /C:".dll.lnk" > NotepadDll.txt
+
+Journal
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i /C:".pif" /i /C:"jnativehook" /i /C:"?" > all.txt
+
+
+fsutil file queryFileNamebyid C:\ 0x 
+
+JnatiVehook
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > DeletedJnativehooks.txt
+
+
+Deleted pf
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i /C:"%date%" > PFfileDelted.txt
+Deleted files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> DeletedFiles.txt
+
+Created files
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00000100 >> Createdfiles.txt
+
+Old files name
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00001000 >> oldnamefiles.txt
+
+New name fils
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x00002000 >> newnamefiles.txt
+
+
+wmic
+fsutil usn readjournal c: csv | findstr /i /c:"0x00002020" /c:"0x00002021" /c:0x80000102 | findstr /i /c:.pf >> Wmic.txt
+
+replace
+fsutil usn readjournal c: csv | findstr /i /R /C:"0x80000200" /i /C:"0x00001000" /i /C:"0x00002000" | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^" /i /C:.cmd^" /i /C:".jar" /i /C:.pif^" /i /C:.bat^" /i /C:"?" /i /C:.txt^" > replace.txt
+
+
+EVERYTHING
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.exe^" > allexes.txt
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /R /C:"[0-9],0x80000200" /i /R /C:"[0-9],0x00001000" /i /R /C:"[0-9],0x00002000" | findstr /i /C:.dll^" > alldlls.txt
+
+File Eliminati: 
+fsutil usn readjournal c: csv | findstr /i /c:.exe | findstr /i /c:0x80000200 >> Eliminati.txt
+
+
+Prefetch Eliminato
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" | findstr /i /C:".pf" | findstr /i
+/C:"%date%" > prefetcheliminato.txt
+
+JnativeHoock eliminato
+fsutil usn readjournal c: csv | findstr /i /C:"%date%" | findstr /i /C:"Jnativehook" | findstr /i /C:".dll" > DeletedJnativehooks.txt
+
+Replace
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i
+/C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i
+/C:".pif" /i /C:"jnativehook" /i /C:"?" > replace.txt
+
+Calcs
+fsutil usn readjournal c: csv | findstr /i /C:"0x00000800" | findstr /i /C:”0x00002010” | findstr /i
+/C:"Prefetch
+
+Aperura file .py
+fsutil usn readjournal C: csv | findstr /i /C:".py" >> pyaperti.txt
+
+Apertura file .bat
+fsutil usn readjournal C: csv | findstr /i /C:".bat" >> bataperti.txt
+Apertura file .exe
+fsutil usn readjournal C: csv | findstr /i /C:".exe" >> exeaperti.txt
+
+Apertura file .dll
+fsutil usn readjournal C: csv | findstr /i /C:".dll" >> dllaperti.txt
+
+Apertura file .jar
+fsutil usn readjournal C: csv | findstr /i /C:".jar" >> jaraperti.txt 
+
+Aprimo il CMD come amministratore e incolliamo questa stringa: 
+    fsutil usn readjournal c: csv | findstr /i /R /C:JNativeHook-[0-9] /i /C:0x80000200 /i /C:regsvr32 /i /C:java | findstr /i /C:%date% | findstr /i /C:.exe^" /i /C:.pf^" /i /C:.com^" /i /C:.cmd^" /i /C:.pif^" /i /C:.bat^" /i /C:.dll^" /i /C:"?" > %userprofile%\desktop\journal.txt

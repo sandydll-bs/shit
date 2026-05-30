@@ -1,0 +1,46 @@
+-----------------------------------------------------------------------------------------------------------
+* Explorer
+^file:///((?!exe|txt|.xbf|.xaml|dll).)*$ | remover archivos
+^file:///((?!exe|txt|.xbf|.xaml|dll|lnk).)*$ | remover archivos
+^(?!C:)[A-Z]:.+ > :\\\.* | ver otros discos
+^{"displaytext"((?!Exe).)*$ | injecciones
+^JNativeHook.+dll$ | ver jnativehook
+^[A-Z]:\\Users\\.*\\appdata\\.*\\Temp\\.*.$ | Temp
+^file:///[A-Z]:/.+./$ | invisible char
+-----------------------------------------------------------------------------------------------------------
+* DPS
+^!![A-Z]((?!Exe).)*$ | no filtrar .exe
+^\\device\\harddiskvolume((?!Exe|dll).)*$ | no filtrar .exe
+^\\device\\harddiskvolume[0-99]\\((?!exe).)*$ | extension modificada
+^\\device\\((?!harddiskvolume3).)*$ | no filtrar harddiskvolume3
+^\\device\\mup\\localhost\\* | localhost
+^\\\\localhost | Localhost
+-----------------------------------------------------------------------------------------------------------
+* SYSMAIN
+C:\\windows\\prefetch((?!Exe).)*$ | 
+-----------------------------------------------------------------------------------------------------------
+* PCASVC
+^trace,*,*,:*\.* | pcaclient mas largo
+^C:\\((?!Exe|dll|common|microsoft|sys|db|tmp).)*$ | 
+-----------------------------------------------------------------------------------------------------------
+* CDPUSERSVC
+^\[{"application":"c:\\((?!Exe).)*$ | 
+[{"application":"[A-Z]:\\\\((?!exe).)*","platform" | excluye .exe
+-----------------------------------------------------------------------------------------------------------
+* SEARCHINDEXER
+^file:C: | cambios disco C:
+-----------------------------------------------------------------------------------------------------------
+* SGRMBROKER
+^{"ProcessID":.+"ImageName":"[a-z]((?!exe).)*$ | 
+"ExitCode":[1-9] | No 0 exit code
+"WriteTransferKiloBytes":[1-9] | no 0 kb
+-----------------------------------------------------------------------------------------------------------
+* CTFMON
+^[A-Z]:.+.\\((?!exe).)*$
+-----------------------------------------------------------------------------------------------------------
+* TEXTINPUTHOST
+^{"ProcessID"}:,+"AppPath":"[a-z]((?!exe).)*$
+-----------------------------------------------------------------------------------------------------------
+* REGISTRY
+^[A-Z]:(\\).*(FriendlyAppNames|ApplicationCompany)
+-----------------------------------------------------------------------------------------------------------

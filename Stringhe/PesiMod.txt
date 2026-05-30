@@ -1,0 +1,755 @@
+StatusEffect: ~ 24-26 kb
+DirectionHud: ~ 23-24 kb
+BspkrscoreMod: ~ 193-195 kb
+ToggleSneak ~ Minore/uguale di 24 kb
+TcpNoDelayMod: ~ 4-6 kb
+TimeChanger: ~ 14 kb
+CpsMod: ~ 7.6–10 kb
+Batty’sCoordMod: ~ 17 kb
+FastCraftMod ~ 179-183 kb
+Pesi mod:ArmorStatusHUD v1.26 >> 25-27 KB
+ArmorStatusHUD v1.27 >> 25 KB
+ArmorStatusHUD v1.28 >> 26-27 KB
+ArmorStatusHUB [1.8.9] >> 29-30 KB
+Autotip (V2.0.2) >> 57 KB
+BattyCordinates >> 14 - 19 KB
+BetterFPS Mod >> 18-62 KB
+BetterFps-1.0.1 >> 62 KB
+BetterSprint >> 70 KB
+BetterSprinting >> 65 KB
+BiomesOPlenty >> 5.652 KB
+BspkrsCore v6.14-v6.16 >> 193-196 KB
+BspkrsCore [1.8.9] >> 62 KB
+CheatBreaker HUD v4 >> 35-36 KB
+CheatBreaker HUD V3 >> 33 KB
+CheatBreaker HUD V2 >> 27 KB
+CPS Mod v1.1 >> 8-10 KB
+Core >> 194 KB
+CoordinatesMOD >> 31 KB
+CoordsMod v2 >> 11 KB
+Custom Crosshair Mod >> 32-64 KB
+DirectionHUD v1.23 >> 24 KB
+DirectionHUD v1.24 >> 23 KB
+Fast Chat >> 4-5 KB
+FastCraft Mod >> 115-183 KB
+FastRecraft Mod >> 3 KB
+FPS Plus >> 147 KB
+FPS Spoofer >> 9 KB
+In-Game Account Switcher >> 66 KB
+ItemPhysic >> 31 KB
+Keystrokes mod v1-2 >> 11 KB
+Keystroke Mod v3 >> 13-14 KB
+KeyMod 1.1 >> 59KB
+Legacy Java Fixer >> 7 KB
+LunatriusCore-1.7.10 >> 57 KB
+MemoryFix (0.3) >> 12 KB
+MotionBlur Mod >> 7 KB
+MouseDelayFix >> 5 KB
+OldAnimationsMod v2.3.1 Classloader >> 72 KB
+OldAnimationsMod v2.3.1 >> 2.209 KB
+OldAnimationsMod v2.4 >> 1.437 KB
+Optifine_1.7.10_HD_u_C1 >> 929 KB
+OptiFine_1.7.10_HD_U_C1 >> 849 KB
+OptiFine_1.7.10_HD_U_D3 >> 1,166 KB
+Optifine_1.7.10_HD_U_D4 >> 1,167 KB
+Optifine_1.7.10_HD_U_E7 >> 1,733 KB
+Optifine_1.7.10_HD_U_E3 >> 1.626 KB
+Optifine_1.7.10_HD_U_D8 >> 1.599 KB
+Optifine_1.7.10_HD_U_D7 >> 1.579 KB
+OptiFine_1.8.9_HD_U_H2 >> 1.314 KB
+OptiFine_1.8.9_HD_U_H6 >> 1.686 KB
+Optifine_1.8.9_HD_U_I7 >> 1.969 KB
+Optifine_1.8.9_HD_U_I3 >> 1.840 KB
+Optifine_1.8.9_HD_U_H8 >> 1.773 KB
+Optifine_1.8.9_HD_U_H7 >> 1.747 KB
+Optifine_1.8.9_HD_U_H5 >> 1.616 KB
+PerspectiveMod >> 32 KB
+Physical Items >> 36kb Lite - 48 KB
+Ping Display Mod >> 9 KB
+PlayerAPI >> 260-276 KB
+PotAlerts Mod >> 29 KB
+Potion Counter Mod >> 9 KB
+QuickSW >> 4 KB
+ReachDisplayMod 1.0 >> 9-10 KB
+ReiMinimap Sem Entity / Player Radar >> 178 KB
+Saturation Mod >> 39 KB
+Sidebar Mod 1.01 >> 10-12 KB
+Spinner CPS Mod >> 47 KB
+StatusEffectHUD v1.26 >> 23 KB
+StatusEffectHUD v1.27 >> 24 KB
+StatusEffectHUD (Max) >> 26 KB
+ShinyPots >> 5 KB
+TabbyChat >> 379 KB
+TCPNoDelay >> 4-6 KB
+TimeChanger >> 15 KB
+ToggleSneak / ToggleSprint >> 21 KB
+VoxelMinimap sem Entity/Player Radar >> 466 KB
+ToggleSneak >> 20-30 KB
+StatusEffect: ~ 24-26 kb
+DirectionHud: ~ 23-24 kb
+BspkrscoreMod: ~ 193-195 kb
+ToggleSneak ~ Minore/uguale di 24 kb
+TcpNoDelayMod: ~ 4-6 kb
+TimeChanger: ~ 14 kb
+CpsMod: ~ 7.6–10 kb
+Batty’sCoordMod: ~ 17 kb
+FastCraftMod ~ 179-183 kb
+ArmorStatusHUD v1.26 >> 25-27 KB
+ArmorStatusHUD v1.27 >> 25 KB
+ArmorStatusHUD v1.28 >> 26-27 KB
+ArmorStatusHUB [1.8.9] >> 29-30 KB
+Autotip (V2.0.2) >> 57 KB
+BattyCordinates >> 14 - 19 KB
+BetterFPS Mod >> 18-62 KB
+BetterFps-1.0.1 >> 62 KB
+BetterSprint >> 70 KB
+BetterSprinting >> 65 KB
+BiomesOPlenty >> 5.652 KB
+BspkrsCore v6.14-v6.16 >> 193-196 KB
+BspkrsCore [1.8.9] >> 62 KB
+CheatBreaker HUD v4 >> 35-36 KB
+CheatBreaker HUD V3 >> 33 KB
+CheatBreaker HUD V2 >> 27 KB
+CPS Mod v1.1 >> 8-10 KB
+Core >> 194 KB
+CoordinatesMOD >> 31 KB
+CoordsMod v2 >> 11 KB
+Custom Crosshair Mod >> 32-64 KB
+DirectionHUD v1.23 >> 24 KB
+DirectionHUD v1.24 >> 23 KB
+Fast Chat >> 4-5 KB
+FastCraft Mod >> 115-183 KB
+FastRecraft Mod >> 3 KB
+FPS Plus >> 147 KB
+FPS Spoofer >> 9 KB
+In-Game Account Switcher >> 66 KB
+ItemPhysic >> 31 KB
+Keystrokes mod v1-2 >> 11 KB
+Keystroke Mod v3 >> 13-14 KB
+KeyMod 1.1 >> 59KB
+Legacy Java Fixer >> 7 KB
+LunatriusCore-1.7.10 >> 57 KB
+MemoryFix (0.3) >> 12 KB
+MotionBlur Mod >> 7 KB
+MouseDelayFix >> 5 KB
+OldAnimationsMod v2.3.1 Classloader >> 72 KB
+OldAnimationsMod v2.3.1 >> 2.209 KB
+OldAnimationsMod v2.4 >> 1.437 KB
+Optifine_1.7.10_HD_u_C1 >> 929 KB
+OptiFine_1.7.10_HD_U_C1 >> 849 KB
+OptiFine_1.7.10_HD_U_D3 >> 1,166 KB
+Optifine_1.7.10_HD_U_D4 >> 1,167 KB
+Optifine_1.7.10_HD_U_E7 >> 1,733 KB
+Optifine_1.7.10_HD_U_E3 >> 1.626 KB
+Optifine_1.7.
+10_HD_U_D8 >> 1.599 KB
+Optifine_1.7.10_HD_U_D7 >> 1.579 KB
+OptiFine_1.8.9_HD_U_H2 >> 1.314 KB
+OptiFine_1.8.9_HD_U_H6 >> 1.686 KB
+Optifine_1.8.9_HD_U_I7 >> 1.969 KB
+Optifine_1.8.9_HD_U_I3 >> 1.840 KB
+Optifine_1.8.9_HD_U_H8 >> 1.773 KB
+Optifine_1.8.9_HD_U_H7 >> 1.747 KB
+Optifine_1.8.9_HD_U_H5 >> 1.616 KB
+PerspectiveMod >> 32 KB
+Physical Items >> 36kb Lite - 48 KB
+Ping Display Mod >> 9 KB
+PlayerAPI >> 260-276 KB
+PotAlerts Mod >> 29 KB
+Potion Counter Mod >> 9 KB
+QuickSW >> 4 KB
+ReachDisplayMod 1.0 >> 9-10 KB
+ReiMinimap Sem Entity / Player Radar >> 178 KB
+Saturation Mod >> 39 KB
+Sidebar Mod 1.01 >> 10-12 KB
+Spinner CPS Mod >> 47 KB
+StatusEffectHUD v1.26 >> 23 KB
+StatusEffectHUD v1.27 >> 24 KB
+StatusEffectHUD (Max) >> 26 KB
+ShinyPots >> 5 KB
+TabbyChat >> 379 KB
+TCPNoDelay >> 4-6 KB
+TimeChanger >> 15 KB
+ToggleSneak / ToggleSprint >> 21 KB
+VoxelMinimap sem Entity/Player Radar >> 466 KB
+ToggleSneak >> 20-30 KB
+1.7.2_OptiFine
+507fb3660e77ab1a3000424d9b08c61606ae1e5a9be41caa3728bddd9
+597365f
+1.7.10_OptiFine
+a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf
+9780cce
+1.8.0_Optifine
+ccccd0a92f76fbb24279691daad9b67f85d80471a37e59e0da76d7754
+982dfe8
+1.8.1
+66a749ad95adcb929439155c0341309e89e437444867e108dcb36fd16
+493b0bd
+1.8.2
+5cc5b24312f3d182bf06e7f1a4da3a05ce94be6c861d5c9995c86e6d8
+811fbe9
+1.8.3
+a4fc2284657544e0f4bcc964f927c2fda3e3a205178ed1d5d58883aaf
+9780cce
+1.8.4
+d68a3aa5271abece4ce2b7048f6caf4f58071476344d9a52fe9ab1410
+c5d458b
+1.8.5
+2d825073de0da4383c0525e81d181ec81f92d17daa2f0b81faff38504
+92e461d
+1.8.6
+e597384cf964950b02650a39f73c2cbf5ce9e51d934cdfa1291530896
+e7cf100
+1.8.7
+2e45066ec194c6daec5f7dbb27822ef0b5855d5829f62392906620145
+689a3e0
+1.8.8_OptiFine
+9481ed51d7fc4be54ec38c509f84124fbac5d9fea238bbde5b2e6c4f7
+53b1ac8
+1.8.9_OptiFine
+14f0d96d1a56fb4f5c3b2233d00699525893fe5ce3dcf181e7de59120
+595d298
+1.9.0_OptiFine
+0273b5c79d6b96799c6480ae61366d6b1d042655970de87f77f1a3f1e
+bea9307
+1.9.1
+56ad7e53f6f4ad393844e274aa2190692b61d2ad9f6b3d12b33a8b733
+2fd51f9
+1.9.2_OptiFine
+ef87eb71250df1b871deab8d3ef10aac3290b9e78667ad548fde4d0e1
+4af0d65
+1.9.3
+ab8fdde789c5b4614ffc98249e04fdcce7dfce320b55215bfe5418608
+af6a63b
+1.9.4_OptiFine
+23e90103a1ca2ac71100004c6d5846de09f85695f579843ef8da41571
+e60c908
+1.9.5
+1.10.0_OptiFine
+c00f8170ebf4fd834f552246743a64885a6dffb3dd1e3a3f3dba9676b
+7a0af35
+1.10.1
+338b205f20c22b9c676d9d3227a5e6c5e190f30ad84d7caad035150b3
+e05ba72
+1.10.2_OptiFine
+7cdf7fcdc1c92584a233bf3c42bd7f0df1bdad3007d306831fe504106
+92be1e9
+1.11_OptiFine
+f0d11987ea743f55a2c03bf77216e6dc9baea7201cc7bf498ceb18043
+e984634
+1.11.1
+eff72a31339cd9a96a61092eed2d95b95e4cc91516bea4e9105c3d735
+74147f6
+1.11.2_OptiFine
+be3fff4f2cc005a1310a96389efdeb983d2bcb4b8e747c402acd616ae
+73d0ba2
+1.12_OptiFine
+59e84cf6acc3912e1705ab05c722485afb3ec33343eef4756d8c16edf
+e6411ca
+1.12.1_OptiFine
+19331fb29bf8b8d5ed764677c94cca9d66481e10104f660eb555894a4
+300cf22
+1.12.2_OptiFine
+8ada07da5ee77dad3527bd7278fbd05ee1fc8a597813b216a871a2d7d
+64cc64f
+1.13_OptiFine
+d807a5ed9428b6c16b64888fd2b7fa76dcf5c55d06f96f7c0c47762c3
+fc3e26e
+1.13.1_OptiFine
+f0b4cf6d1a87ae150f87a535651138ca7b82bdad8853f76e7ddbff1dd
+610ac87
+1.13.2_OptiFine
+3410887ba652f25792c7675bfaf9140e73b60e93cfbf113a803f8a98c
+b05c0f9
+1.14.1
+7194d1326cf796f62ac55f3cb56f851c232895639ae27510f3207d5a7
+3f91814
+1.14.2_OptiFine
+9b740c9fd4955981125ebd3cd086baa8b4392963d043a3480b5b942a9
+6637c25
+1.14.3_OptiFine
+4063062677433988e012fba53e42e4c21adb6919ac7f061f19f3c6e75
+b334e07
+1.14.4_OptiFine
+b3b2a798e2d67b566008fe4a03767ae2c7ff3f8c7ba6751e7b71fc729
+9672d0a
+1.15.1
+6e28ecd008d0ca5e1dcd346dbc2882430f02a77a78864d57acc49fc8b
+c1b5358
+1.15.2_OptiFine
+4a73008a73f3824b7c711750a5a37556df8614f193c0a531e292dad15
+9a73a7c
+1.16
+00740ef4475d4cd0a1d7064f89602f759c45ff9afe29da9b0ee0b9037
+ebb2a71
+1.16.1_OptiFine
+b4831e7b63b10588ff06ea86322108d916c536446f3aea3ae988b7fe3
+e1f66ef
+1.16.2_OptiFine
+19960f4e3c60f2723f361844d2b4020b8bf2160bd91a1e1efde8ce5ae
+a4ff73d
+1.16.3_OptiFine
+da85197babd989a7de318774cf5d97bcef95e89a70c9fa9a4c8180463
+e9589fa
+1.16.4_OptiFine
+d6740464ee2bdf37d285c5d368d2e16497492427fb5783e2db3482bbf
+0079ed0
+1.16.5_OptiFine
+00b5ebbc33e95ea88c1ab80601599c9827e9aa861d93ccc2cfcbbfd99
+6e86263
+OptiFine_1.7.10_HD_U_D4
+1ce3a1ab348aac5cfe70fbc60496146c594faa21bb1bc5fc73dfb1643
+2108940
+OptiFine_1.7.10_HD_U_D3
+a5a99de3615acfe0171cde06dfdd8ed1308b534a58b4617d99c0fe398
+87040be
+OptiFine_1.7.10_HD_U_D6
+415cba487ea5eddca981c6a00a5426236f8df36c635f5808aba227ad9
+6d1b478
+OptiFine_1.7.10_HD_U_D7
+80695aafaa471eaf51507901cc242f1d4564c4e10d81d01c5a162215c
+788733f
+OptiFine_1.7.10_HD_U_D8
+cc5a3c4d7b169cc0b0899f8304360b38e69d34311546e1b36631fb2c6
+a44f742
+OptiFine_1.7.10_HD_U_E3
+1dc0f1fe2614c5354292473e44649f90508ae069d249550ee4d9ce794
+ea8f0bf
+OptiFine_1.7.10_HD_U_E7
+8bcd9d83de001a0591f498105f369f070c47d2c9192774d5a5b69f646
+e44fab4
+OptiFine_1.8.0_HD_U_I7
+d3d9168f06ad10e033720348e41d6a56c874b5acdb321b0c90feb860e
+808e0c5
+OptiFine_1.8.0_HD_U_I3
+20ab62ca61874c9bf5e1dc2a66795182a43021f45b116b2675eae489d
+e6e4a9d
+OptiFine_1.8.0_HD_U_H8
+8d862d71ccac7e93abedafe9a50f045f0db3e41599bbe1e978f125e22
+c346d9a
+OptiFine_1.8.0_HD_U_H7
+0a22202f839b091e06a515f6b52d6fcfb0e6860868801fc7d34a6fd85
+747cd53
+OptiFine_1.8.0_HD_U_H6
+b10b3f73f6b0d815e97f87abbac3cdef7c24d9414c023a2e8d72c6afe
+d8f0dc6
+OptiFine_1.8.0_HD_U_H5
+8551257e8000f735a5a3fde96e7e36ba7028ef91c2959683138000c69
+533d745
+OptiFine_1.8.8_HD_U_H8
+446eb1067d44a004b8940416c22020acd44d9012eef46275d6e8c4b2e
+87b1d7f
+OptiFine_1.8.8_HD_U_I3
+ddc9c2ae7e771416abfbbed288e09076657e580ab9125b81627e0efaa
+f07af64
+OptiFine_1.8.8_HD_U_I7
+5e792a05d932a89353d5bc1be58a989c0d48b81477926a154d9c4fa15
+7558a74
+OptiFine_1.8.8_HD_U_H7
+476eb23bf24d4d48dfee41723e9c196b3b947e525ced5cde73b76256b
+3dd49aa
+OptiFine_1.8.8_HD_U_H6
+e9b11adaf4adc1fd4c0681a94f0548cd2d98942176f8842e82a057aee
+94e8230
+OptiFine_1.8.8_HD_U_H5
+f9e29775670bcf94860c9c80beb91b62a70e958dedd2ea483624b7a97
+b7dac9a
+OptiFine_1.8.9_HD_U_M5
+2739760a70fca6ae5c7dc817bcc6283f18f55e38fa23778da7f387a6b
+724b2c4
+OptiFine_1.8.9_HD_U_L5
+b442bf55e4c703c55f5f48055d79c07eb853fcb76fa88f85587e911af
+4f2b084
+OptiFine_1.8.9_HD_U_I7
+778f1aa163c4d1e3f1a5a45436da7801b54ee30f3bc2345c1f0ac5c06
+b6b4d62
+OptiFine_1.8.9_HD_U_I3
+4959e003c0199cf178a25dac24a06e2404145cabc6f7e2d0b15ec8549
+f80d0b3
+OptiFine_1.8.9_HD_U_H8
+b6785e65bb8c1dd277bbb5830196022ec4f9b232c72caff5b5d0f24ea
+4aa09c2
+OptiFine_1.8.9_HD_U_H7
+9b61d1c1b930353525c4a9891d7523a614e838c1b9a04f12d16bf8425
+699042c
+OptiFine_1.8.9_HD_U_H6
+24030c73daaab3d24485b266229d426244956a88226d98ac19777ff34
+8ec0e30
+OptiFine_1.8.9_HD_U_H5
+fa8a6c5aefeef9753d164bd8dd681a30a403f24e2249479a774da7fce
+28f4c23
+OptiFine_1.9.0_HD_U_I5
+36b5a8d5836f2c5ac68a2da37a6f12830ae35882d5a84e8828e6a40a4
+3dad1db
+OptiFine_1.9.0_HD_U_H5
+5cc9499e4c771e86da9b24191327d9aa5befdcd887dd466896ca5b850
+e149601
+OptiFine_1.9.0_HD_U_E7
+f0aa3ad69f3c950dd02d5df6f8408de1768becb2da670b002d8c816c2
+e5d53d8
+OptiFine_1.9.0_HD_U_E3
+0a70a7fde63bb64351bee74f48bb1ed49bb1e24f4924e300b07dd3603
+0c8fd80
+OptiFine_1.9.0_HD_U_D8
+b99007eacc6916370b9ebd52c38213c472b4a5347dcc6a1de2c7fdafb
+cef58de
+OptiFine_1.9.0_HD_U_D7
+efb4e5482430dfacd6554abed12ae6bb0f315729fc1089fe4b79458d1
+c10bb48
+OptiFine_1.9.0_HD_U_B5
+e7da9234c57bb300aad88b3cd1ddbd9b9b7e724eab979db4a0ba102a3
+45cd8bd
+OptiFine_1.9.0_HD_U_B3
+5df53e75096dbff81294ca52e8406725a6c32495680b67906536dce78
+c6b3c0b
+OptiFine_1.9.0_HD_U_B2
+a51ad036ddf9f0d8286a3b996e4173542864cb1c58af3cfb1f73101f6
+b8cd0ba
+OptiFine_1.9.0_HD_U_B1
+68f7016b651bc3cfd8d04d46f674e07c557ccfaac391ec246c2d0fced
+47ae1b1
+OptiFine_1.9.2_HD_U_B1
+564484d61685d944fbddfc5faca284bec35542765188fb9e7703af187
+0c62af8
+OptiFine_1.9.2_HD_U_B2
+e36c71638786ce0b76975d3e26e62eb68615f7db9b3b992c55b75f8bb
+a6d93b5
+OptiFine_1.9.2_HD_U_B3
+4904f392550ce03761415269a24bff8ad3ece7630aca3537fa08957f0
+d2355e8
+OptiFine_1.9.2_HD_U_E3
+37b367332eefc4c78daa1225b64a6bf659a8aaa9d5ea16b7e29a93523
+4ecfead
+OptiFine_1.9.2_HD_U_D7
+67d8134634c90db7d5bc158744c86b23d62c8d010a94c360b9d9b4253
+4cb9588
+OptiFine_1.9.2_HD_U_D8
+59d9d5f83b5d0f59952e9b54abbf59588f64f815b5d9661e54ee76934
+1df99a5
+OptiFine_1.9.4_HD_U_B4
+48bf477961b8c658273a7393c9999eb31439b4712db2edfea626c74e8
+533f85c
+OptiFine_1.9.4_HD_U_B5
+aa083413535264417ab0c277d0a296d79cd1e548f4f5ba494e03baa7c
+bb02601
+OptiFine_1.9.4_HD_U_B6
+63594d2b448673fc31ae1d82630453fa7b0d2b12d2be3ddaae9a6d2e3
+5a9adc7
+OptiFine_1.9.4_HD_U_E3
+58d7297cca20fce29faf63e13445910bffb3e6c523de137f32585af53
+107dfbc
+OptiFine_1.9.4_HD_U_E7
+28bebdf461807f6005702f3361cafb47b5f17c1684eedcfdc2c5ee7b9
+c3b8593
+OptiFine_1.9.4_HD_U_H5
+0462daff5cd87a97cd9767808cb8bee148d65207629da1386560b8d3b
+8fc62c3
+OptiFine_1.9.4_HD_U_I5
+b7e3b121fd1397f359c544e5f8b1a759152113067ebf18997e1725c44
+01feb22
+OptiFine_1.9.4_HD_U_D7
+4ac5421fc94128e7e5e2725b63232c0c7bc9bd89da2e6efd791ddc288
+7c8f03f
+OptiFine_1.9.4_HD_U_D8
+e1d0d89391fe5505fbeba068333b2b985354d1a420f4f34ca9bc8b12b
+a456e87
+OptiFine_1.10_HD_U_I5
+a0a3ac68d16738a7e158b0c3606ff467887f6420edc89592f4b5cf68a
+000a5cd
+OptiFine_1.10_HD_U_H5
+0780a17c3d3697288e5e5e2bacc575fcca8128ad0c316ce643d8a6762
+3da43d2
+OptiFine_1.10_HD_U_E7
+870d886113ac4f84dad70d33902ad5ce069f3bda603e43675be9265ce
+def4809
+OptiFine_1.10_HD_U_E3
+9f1cc1a58a0893d5f6a017b8b364f4966f93ecda4e82a1b27184fd90b
+a24b131
+OptiFine_1.10_HD_U_D8
+a21ece99d096d41b9ddc3220b4259bc6e71c3a6070bc8f59769db7851
+587dce5
+OptiFine_1.10_HD_U_D7
+7a290b5af4a5bf153a9dfc23cf1c02cdcb97be9f2aaee93d085158304
+a05837f
+OptiFine_1.10_HD_U_C1
+60db41a9609f5fe57f570bb6d8b4d936a53fa81a1829f1e39301e5a71
+d51444d
+OptiFine_1.10_HD_U_B7
+1f9a84c75eae9773a2b988fc7da73248bfcc90d89339fb01f5e013f6f
+1ee270e
+OptiFine_1.10_HD_U_B6
+ddc8d07f7b55f1be5a54d1f2488e925957b60278c4b107ea42e4d92a7
+cfa9866
+OptiFine_1.10.2_HD_U_E3
+5f7fca5b48e9cee4c032d6df75ef537954d36f4b6df53050e82aa47b4
+aea0516
+OptiFine_1.10.2_HD_U_E7
+2145fb35cf4dbe343d252a045534ba5ef4e6354e67acce73117ca8927
+9414046
+OptiFine_1.10.2_HD_U_D3
+7d99694ccf0836e69e470949989a182c3d23725d521924b35a3d2fb15
+e3ed69d
+OptiFine_1.10.2_HD_U_D8
+c812c3648ef4c2aeb75a6abc90b419bd7cf8be85e5563be9c574962d8
+1a5222f
+OptiFine_1.10.2_HD_U_D1
+6c4ee9d709617293b623ad3ee9621b9c8f28c1430e1ac86e04baa3da4
+7647f64
+OptiFine_1.10.2_HD_U_H5
+67005964e4cd3219af28f2e22e0d4d5137964516ff6c0c1479b05d896
+eed4bd0
+OptiFine_1.10.2_HD_U_D2
+1107a06247175298ac93748c295169d52d0136478c26c21d90d328003
+2e0d3f8
+OptiFine_1.10.2_HD_U_D7
+c088dee95cfadd135f1676f4f05ca2791be75e473a82b84f657f9591c
+3804429
+OptiFine_1.10.2_HD_U_C2
+232fb8d311b618b9fad2d3c605fc559994b119eac1120f9def20e73c3
+4738ced
+OptiFine_1.10.2_HD_U_I5
+ee9458d0b08ea8ca020e8e56c513ca5c08477505df9fb2e8c66a22581
+9ee0554
+OptiFine_1.10.2_HD_U_D4
+0ded07229d7db672a5694203a39d8f880e031a019adf23d26d9137e5b
+f4ab1a6
+OptiFine_1.10.2_HD_U_D6
+bb84c3a22ef23801fb661f7657bafc0e040e6bac03968d181145831c6
+9081808
+OptiFine_1.10.2_HD_U_C3
+dce89b3a81d30b00ba8ba636aeb21d602096197b51dded0bedebb4b95
+cc88eda
+OptiFine_1.10.2_HD_U_C1
+9f79c07983699e72dda93a4666aaa0e43013c29f8f4dd38c43dd97d6e
+1e10a12
+OptiFine_1.11_HD_U_B1
+06961414e0d0100fec8c7441823cc65b9d986fd7ee97af5a334f02e0e
+f4dcad9
+OptiFine_1.11_HD_U_B2
+3dacc83efcb024ad80388c294873e22e4ff698ed68a3f51d9cff83ed4
+19e6e1f
+OptiFine_1.11_HD_U_B3
+8d3bd2c3c6f7d75d5e171ceb249516d10e303939d2c4ac8f59a7474f6
+33044e1
+OptiFine_1.11_HD_U_B5
+77a379ea8617684273abab179b04786a2fac11b954c5918a6b85751e2
+cd22ca9
+OptiFine_1.11_HD_U_B6
+94f3ccf93268a3a36d336f85dee3c5ce2d2bc5153b2fcf504c0f76bda
+ed66753
+OptiFine_1.11_HD_U_B7
+796ba91cca32e23704824167506f32eb10a7a33d0821eacf122347bac
+7faca76
+OptiFine_1.11_HD_U_B8
+850122310e4802899d9c91312f9056fd9a1b2bafc76935072569e501a
+10673ca
+OptiFine_1.11_HD_U_C3
+3dfaafb4d45f9a50933e973034cfc84afc4aac6e4311abd86480d1e74
+a25528c
+OptiFine_1.11_HD_U_C7
+faf3342478fc2dfd3aea71cf3653f96af12ddfc63d728444deefb3494
+01819db
+OptiFine_1.11_HD_U_F5
+03e48d683e14e527ec981484dff4b3721ddf20c49296a10bba7f52219
+a4bf5b0
+OptiFine_1.11_HD_U_G5
+52b3495aabac5548ed528c002788e2e2377c96e7c6b681e241201cbab
+0b6efab
+OptiFine_1.11.2_HD_U_B8
+07cc65b3928b2252c065547c35dea2ca63f126185afb22bb61b8e0b27
+e972d1d
+OptiFine_1.11.2_HD_U_B9
+08fcacd5618e63922808fd9909cebfd5a20669fab0213ca8e3f78ccce
+b2c0659
+OptiFine_1.11.2_HD_U_C1
+1f3129cdeeb4675fcd8aa64cb89f7e177406cc826ba68f0bd85203187
+815c4e5
+OptiFine_1.11.2_HD_U_C2
+9d66e43b74b18582f8d51df242d35cb719040921f9c300506a08b037b
+dfdf2c9
+OptiFine_1.11.2_HD_U_C3
+dcb1008471905fd51e3d7dc0c9c6f0b43746c4cd5ca6b121cddc8cb54
+eb89372
+OptiFine_1.11.2_HD_U_C7
+065cd23754e5b4d3d3f6fccaf233906d1d724b38c7de32755328ab1c3
+085f97a
+OptiFine_1.11.2_HD_U_F5
+ec21dd70df5c28044d5d184cae55d41b344a109f914723c3b70fd695e
+103ce90
+OptiFine_1.11.2_HD_U_G5
+d6c2d406d3397b92c34d41424597fd51e1fa58e03ccd8e9302607d3c2
+4b98afe
+OptiFine_1.11.2_HD_U_B5
+0f7c32f7a5f3b30c64f75f70c1bbf43d40b5bec2fde9b3324328b650b
+d12133b
+OptiFine_1.11.2_HD_U_B6
+649593889e39d25c7182107ad56b781dd5d103234c87402e9653075ef
+6c06f07
+OptiFine_1.11.2_HD_U_B7
+9e4c35c9c8017845bc307cab01ace956d6778f178b709a83d097dd531
+4766701
+OptiFine_1.12_HD_U_C7
+ae86406c2a33309bc4efbc556b8e72132421bf53db09fd8d4ac316c06
+41de342
+OptiFine_1.12_HD_U_F5
+e6856f93b1d60215a0e15711d5be071356a21a11fd42da6f96352d68e
+a8f1fc5
+OptiFine_1.12_HD_U_G5
+abdd900845376ab609b0048080b6ec97f2c298308337b23fe50f1ca33
+5f88bea
+OptiFine_1.12_HD_U_C2
+b18c62762391fa0ee0cc90926d2b51967acd7261c8b12fbf2783c9cec
+4445182
+OptiFine_1.12_HD_U_C3
+31ca7b610077b7c9ffe585082933a5f5e8e35cee9bb2594dd689a9d79
+05580f8
+OptiFine_1.12_HD_U_C4
+2dd7fedffda9b41fbebc1d9f66d140b1e4cfe2c6fb845615118600302
+e2badfc
+OptiFine_1.12_HD_U_C5
+f69f4408c3c902e5c18669b88be749ee70bb75b7092f2869f17815697
+b907ed0
+OptiFine_1.12.1_HD_U_C6
+a15a45aaab47fb4c040a442a148b7215e768dcb49ec17b733a5f6f26d
+becebd8
+OptiFine_1.12.1_HD_U_C7
+82390941574a4383bc01f20b4b556855d21bc1a6bb34f6826cf01fe7f
+6364d3e
+OptiFine_1.12.1_HD_U_F5
+7aaaaf6b94bb1993f16a03da7d6ed19d78c1c51b1f3ce060b030f99dc
+95b176d
+OptiFine_1.12.1_HD_U_G5
+f6c6eb92cd0814e82c42a19334ecc149ff39fa305b90140d16c2b86b6
+715c0ca
+OptiFine_1.12.1_HD_U_C5
+1c79ad3cf02530733a28a5dbffff2b53468da8772d5d21c804652ead9
+00aec73
+OptiFine_1.12.2_HD_U_C9
+0ab6ff24829eeb06d8e00d33548be9ab9bf0191e5ad5e181bbcd5fbec
+23f3baf
+OptiFine_1.12.2_HD_U_D1
+f1dc628265459c1ddf47fd2f1fdef782a1652a2ac19bc2af2a9aa63cd
+3d11292
+OptiFine_1.12.2_HD_U_D2
+df8c66cf2698130b0386b39a2700a947c9b3645e04dd7aabea2909096
+01983ae
+OptiFine_1.12.2_HD_U_D3
+33d535ea0f4e8c8456d09e7095113a6bc0d023e277396d2ad6d81b653
+01b3668
+OptiFine_1.12.2_HD_U_E1
+51b84cfb29b5e2a91298b17a64d535036fdbbd9ef77da0c4b49fdf2c2
+d02a9f1
+OptiFine_1.12.2_HD_U_E2
+88ba0f809282d4b1b0605d6e0fbb432c0fedd5636724d6dedf2ed3e82
+08c54cd
+OptiFine_1.12.2_HD_U_E3
+470f5a83a63bb2f0f361b84fe4bfad8423cb54d730f31dbb530d81b05
+f2d99dd
+OptiFine_1.12.2_HD_U_F4
+dc3442eca2fd116ea718909c078091bbe7f1a043e14d30449ed620090
+b1a80c4
+OptiFine_1.12.2_HD_U_F5
+fc70db439793b257228ad50dbb497dd50e33c3e08f7d0d6b2bba3a7d7
+c349619
+OptiFine_1.12.2_HD_U_G5
+3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a83
+9ba271e
+OptiFine_1.12.2_HD_U_C5
+246e950870a33f4c7f213faf6e4cd61f367d4930cdddc39b0045e9a57
+e3dea1a
+OptiFine_1.12.2_HD_U_C6
+b9f52bfa97c2b580f9a88c5994fb781c34bac04abeeb2e2f777432fdb
+c6ae10b
+OptiFine_1.12.2_HD_U_C7
+842f9e4e9225f0b980b59442a802bfa49777da6c3154e5c21d4bf8ebe
+13c9971
+OptiFine_1.12.2_HD_U_C8
+043966c34b0e9e8e50587447471e29e2b19249d85d2d522136b09ce8a
+0cd3903
+OptiFine_1.13_HD_U_E4
+83861f3922012a7019e44d610386fe379a3e79ddd5b9b1a4ca9fbe96a
+ab51e75
+OptiFine_1.13.1_HD_U_E3
+b57a928c39f4c21d24a9394fe7d383500aed5600b9da7a2e8581922ae
+b4a157a
+OptiFine_1.13.1_HD_U_E4
+6395d60ff6839b4d51c34cfbdd039e9f087964a4d08218a7da28f2770
+738bd64
+OptiFine_1.13.2_HD_U_E4
+3a2e81b3fbd148cec5cdf501a8d138007affbf9fa5b99ac0aef1fdcab
+c45ee14
+OptiFine_1.13.2_HD_U_E5
+3c11d724f5ce017067e92dbb6131bc119333305292ef2e10c4f316f8f
+ec75879
+OptiFine_1.13.2_HD_U_E6
+be2a7f07d5f90da43a4d0c8d517924088f592486e8f02857e06c9d58d
+839dddd
+OptiFine_1.13.2_HD_U_E7
+0ad0c5c222ec810328e90642e4e8e9c0d45f725e61989ca43325e7502
+bc4e306
+OptiFine_1.13.2_HD_U_F5
+065938b02c8d2d3e0441fe4e87815a42f45b9ffc9781a6d0b596d84e1
+26bee78
+OptiFine_1.13.2_HD_U_G5
+b23510a2df1f3dd6d94e22eab7e7b16c5e53f242396cb41ebeeedab56
+f57bb71
+OptiFine_1.14.2_HD_U_F1
+c81a76d7e00169aae51f14b48ddcee3310723175d37d43cab69652f4d
+1688518
+OptiFine_1.14.3_HD_U_F1
+c80cad3ca5c09413b3fb33a04981fb7d9cd2909270e77d3cf351ccd02
+549a175
+OptiFine_1.14.3_HD_U_F2
+50e21bcff95d3c0645a23ddfdea4287e8f44a8bb5578292461dabd7a9
+3d09e03
+OptiFine_1.14.4_HD_U_G5
+23eeb9bd03bac86e0043464b01f5fbdc89ac14a010913cab20e9d01e5
+75389bb
+OptiFine_1.14.4_HD_U_F5
+053606de560f9ee47baf646b37239ca4fcca4331235e09dbe7f8250f0
+ab197fc
+OptiFine_1.14.4_HD_U_F4
+66df1c3b02d62cf7149992b576e34ee0a37170f68613b4d9ab5be08c7
+92154f2
+OptiFine_1.14.4_HD_U_F3
+b3c3a36a3a9a8de78423c9de84b03b35ffe6202cd7579c401e45f4f54
+4e9d312
+OptiFine_1.14.4_HD_U_F2
+f8c0a0b46ef5764bfab0b542673e62e392ff2ef0d71dd45c7b0d929c0
+dcc8aff
+OptiFine_1.15.2_HD_U_G6
+04afd60dfef413e4cd7d1b4248e7aca78126cae3bcb83135374503048
+7371f83
+OptiFine_1.16.1_HD_U_G2
+bb38be37e2c7b26776a6fd6aede86f9dcdcfb00d4ebd74d7ec54a0dec
+6ee8bbf
+OptiFine_1.16.2_HD_U_G5
+a23369e9ee93b2e33b5850817605886d7952dfa2d1269dd5208b9f893
+1025bc5
+OptiFine_1.16.2_HD_U_G3
+c72f68b911dc0b1a1e2678c2178a84b0f5cf00a3e533e20dccecdb620
+fb3acba
+OptiFine_1.16.3_HD_U_G3
+39e3b20ac72135f857a1515e8843f64037f62ed60a7ea917bf4ab9c48
+3f4b06a
+OptiFine_1.16.3_HD_U_G5
+f44557c3130ec32d26719bf6c9d8ee3d7b6d95af80d04869e645ed2cc
+fc9375e
+OptiFine_1.16.3_HD_U_G4
+989aea30e9cbb1422956d1a5d5418c20da82e7715c507a7d508c9d8b0
+9aeadff
+OptiFine_1.16.4_HD_U_G6
+0715d49206ba4674e18a5cee78a83fc7dcc2e39426e145169e14698f1
+a658384
+OptiFine_1.16.4_HD_U_G5
+6e6e01f63f53d15f814d894a6bc9714f778f343aa7323ab93a2526774
+4be1b89
+OptiFine_1.16.4_HD_U_G7
+106df3f7e5d8a039ed51dded95115d316b040058881de19b7bb2e00fa
+b6b7f18
+OptiFine_1.16.5_HD_U_G7
+8066b7de597bb06ad30779a5e01dacc5c60487883b0fbd6419a88f38f
+099f028
+OptiFine_1.16.5_HD_U_G6
+8a717d779878954bdad8ac961041343fe155d942705c3eed98f0e057a
+40c3e8b

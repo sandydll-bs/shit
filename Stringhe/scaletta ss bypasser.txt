@@ -1,0 +1,48 @@
+SCALETTA SS
+
+Seguite questi passaggi durante un controllo
+
+0. Powershell - get-service | findstr -i "pcasvc"; get-service | findstr -i "DPS"; get-service | findstr -i "Diagtrack"; get-service | findstr -i "sysmain"; get-service | findstr -i "eventlog"; get-service | findstr -i "registry"; get-service | findstr -i "appinfo" | findstr -i "bfe"
+1. Consumo dati
+2. Win + R = shell:recent
+3. Virus (cronologia virus e minacce consentite)
+4. Systeminformer/ process hacker = data di avvio processi 
+5. Systeminformer/ process hacker = Diagtrack (prima harddisk poi filtri da regex case intensive la stringa successiva e poi rifai regex case intensive la stringa senza il volume di sistema) - harddisk - volume1|volume2|volume3|volume4|volume5|volume6|volume7|volume8|volume9|volume10|volume11|volume12|volume13|volume14|volume15|volume16|volume17|volume18|volume19|volume20|volume21|volume22|volume23
+6. Systeminformer/ process hacker = DNS - Filtra (Contains case intensive) .gg 
+7. Panello controllo di Nvidia - Manage 3D Settings - Program settings - Add/ Aggiungi
+8. Winprefetchview - cmd.exe / consent.exe / mmc.exe (se sono uguali controlla se duplicati)
+9. ShellBags Analyzer - analyze e controlli
+10. Event Viewer:
+
+Cancellazione Journals
+- Windows logs --> Application --> Filter current registry --> <All id. event> --> 3079
+
+Cambio Orario
+- Windows logs --> Security --> Filter current registry --> <All id. event> --> 4616
+
+Cancellazioni Logs
+
+- Windows logs --> System--> Filter current registry --> <All id. event> --> 104
+
+Estrazione USB
+
+-Applications and Services Logs --> Microsoft --> Windows --> Kernel PNP --> <All id. event> --> 420
+
+Formattazione USB
+
+-Applications and Services Logs --> Microsoft --> Windows --> Volume Snapshot --> <All id. event> --> 115
+
+11. Regedit:
+
+Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU
+Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\VolumeInfoCache\
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices
+
+12. Velociraptor x Timeline Explorer - cercavamo dal sito SRUM e analizzavamo i risultati
+13. Registry Explorer x Rla - system (mounteddevices - appcompatcache) / user (opensavepidmru - runmru - 1001 di user settings)
+14. WinLiveInfo
+15. Journal Trace
+16. Executed Program List
+17. FTK Imager
+18. AmCacheParser x Timeline Explorer

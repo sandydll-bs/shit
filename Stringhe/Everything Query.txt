@@ -1,0 +1,57 @@
+album:<testo>	Ricerca metadati di album nei file multimediali.
+	ansicontent:<testo>	Ricerca contenuti di testo nei file aventi codifica ANSI.
+	artist:<testo>	Ricerca metadati degli artisti nei file multimediali.
+	attrib:<attributi>	Ricerca file e cartelle aventi gli attributi specificati.
+	attribdupe:	Ricerca file e cartelle aventi gli stessi attributi.
+	attributes:<attributi>	Ricerca file e cartelle aventi gli attributi specificati.
+	bitdepth:<numerodibit>	Trova immagini aventi numerodibit bit per pixel.
+	child:<nome>	Ricerca le cartelle che contengono un elemento con il nome specificato.
+	childcount:<numero>	Ricerca cartelle che contengono il numero specificato di sottocartelle e di file.
+	childfilecount:<numero>	Ricerca cartelle che contengono il numero specificato di file.
+	childfoldercount:<numero>	Ricerca cartelle che contengono il numero specificato di sottocartelle.
+	comment:<testo>	Ricerca metadati di commento nei file multimediali.
+	content:<testo>	Ricerca contenuti di testo nei file.
+	count:<max>	Limita il numero dei risultati a max.
+	dateaccessed:<data>	Ricerca file e cartelle aventi la data di accesso specificata.
+	datecreated:<data>	Ricerca file e cartelle aventi la data di creazione specificata.
+	datemodified:<data>	Ricerca file e cartelle aventi la data di modifica specificata.
+	daterun:<data>	Ricerca file e cartelle aventi la data di esecuzione specificata.
+	da:<data>	Ricerca file e cartelle aventi la data di accesso specificata.
+	dadupe:	Ricerca file e cartelle aventi la stessa data d'accesso.
+	dc:<data>	Ricerca file e cartelle aventi la data di creazione specificata.
+	dcdupe:	Ricerca file e cartelle aventi la stessa data di creazione.
+	dimensions:<larghezza>X<altezza>	Ricerca le immagini aventi le dimensioni specificate.
+	dm:<data>	Ricerca file e cartelle aventi la data di modifica specificata.
+	dmdupe:	Ricerca file e cartelle aventi la stessa data di modifica.
+	dr:<data>	Ricerca file e cartelle aventi la data di esecuzione specificata.
+	dupe:	Ricerca nomi di file duplicati.
+	empty:	Ricerca cartelle vuote.
+	endwith:<testo>	Ricerca i nomi di file che terminano con <testo> (inclusa l'estensione).
+	ext:<elenco>	Ricerca file con estensioni specificate (elenco di estensioni separate da punti e virgola).
+	filelist:<fn1|fn2|...>	Ricerca un elenco di nomi di file (il simbolo '|' separa gli elementi dell'elenco).
+	filelistfilename:<nome>	Ricerca file e cartelle appartenenti al file d'elenco denominato <nome>.
+	frn:<numero>	Ricerca file e cartelle aventi il File Reference Number <numero>.
+	fsi:<indice>	Ricerca file e cartelle nell'indice interno specificato (l'indice del primo elemento è 0).
+	genre:<genere>	Ricerca metadati di genere tra i file multimediali.
+	height:<altezza>	Ricerca immagini aventi l'altezza in pixel specificata.
+	infolder:<percorso>	Ricerca file e cartelle nel percorso specificato escludendo le sottocartelle.
+	len:<lunghezza>	Ricerca file e cartelle il cui nome è lungo il numero di caratteri specificato.
+	namepartdupe:	Ricerca file e cartelle aventi lo stesso nome (esclusa l'estensione).
+	orientation:<tipo>	Ricerca immagini aventi l'orientamento 'landscape' o 'portrait' (orizzontale o verticale).
+	parent:<percorso>	Ricerca file e cartelle nel percorso specificato escludendo le sottocartelle.
+	parents:<conta>	Ricerca file e cartelle che hanno il numero specificato di cartelle sopra di loro.
+	rc:<data>	Ricerca file e cartelle con data di modifica recente specificata.
+	recentchange:<data>	Ricerca file e cartelle con data di modifica recente specificata.
+	root:	Ricerca file e cartelle non contenuti un altre cartelle.
+	runcount:<conta>	Ricerca file e cartelle con la conta eseguiti specificata.
+	shell:<nome>	Ricerca della cartella di sistema denominata <nome> includendo sottocartelle e file.
+	size:<dimensione>	Ricerca file e cartelle con la dimensione specificata in byte.
+	sizedupe:	Ricerca elementi aventi le stesse dimensioni.
+	startwith:<testo>	Ricerca nomi di file che iniziano per <testo>.
+	title:<titolo>	Ricerca metadati di titolo tra i file multimediali.
+	track:<numero>	Ricerca file multimediali aventi il <numero> di traccia specificato.
+	type:<tipo>	Ricerca file e cartelle del tipo specificato.
+	utf16content:<testo>	Ricerca file codificati UTF-16 contenenti il <testo> specificato.
+	utf16becontent:<testo>	Ricerca file codificati UTF-16 Big Endian contenenti il <testo> specificato.
+	utf8content:<text>	Ricerca file codificati UTF-8 contenenti il <testo> specificato.
+	width:<larghezza>	Ricerca immagini aventi la larghezza in pixel specificata.

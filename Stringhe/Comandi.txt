@@ -1,0 +1,104 @@
+# **COMMANDS \&\& REGEX USEFUL IN A SCREENSHARE**
+
+
+
+## **Mod Analyzer**
+
+#### **Tonynoh**
+
+powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/MeowTonynoh/MeowModAnalyzer/main/MeowModAnalyzer.ps1')"
+
+
+
+#### **Habibi**
+
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass \&\& powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1)
+
+
+
+### **Journal**
+
+#### **CACLS**
+
+fsutil usn readjournal c: csv | findstr /i /C:"Prefetch" > cacls.txt
+
+
+
+### **System Informer**
+
+#### **.EXE \[CSRSS]**
+
+^(?!.\*\\.dll$)(?:\\\\\\\\\\?\\\\)?\[A-Za-z]:\\\\.+$
+
+#### **.DLL \[CSRSS]**
+
+DLL -> ^(?:\\\\\\\\\\?\\\\)?\[A-Za-z]:\\\\.+$
+
+
+
+### **USEFUL SCRIPT**
+
+### **Services**
+
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass \&\& powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1)
+
+
+
+### **Jar Parser**
+
+powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/JARParser/refs/heads/main/JARParser.ps1' | iex"
+
+
+
+### **Doomsday Finder**
+
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass \&\& powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/zedoonvm1/powershell-scripts/refs/heads/main/DoomsDayDetector.ps1)
+
+
+
+### **Task Scheduler**
+
+powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/nolww/project-mohr/refs/heads/main/ManualTasks.ps1')"
+
+
+
+
+
+### **WebSites \&\& Applications Locked**
+
+#### **Path Regedit**
+
+1)HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer
+
+
+
+2)HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options
+
+
+
+3)HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains
+
+
+
+4)Computer\\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Command Processor
+
+
+
+5)HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\explorer\\DisallowRun
+
+#### **Normal Path**
+
+C:\\Windows\\System32\\drivers\\etc\\hosts
+
+
+
+### **Console History**
+
+C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost\_history.txt
+
+
+
+
+
+
+
