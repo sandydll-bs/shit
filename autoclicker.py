@@ -5,11 +5,9 @@ import ctypes
 
 running = False
 
-# Linux X11 click simulation via ctypes (no xdotool)
 class Clicker:
     def click(self):
         try:
-            # X11 fake input (very low-level, works on X11 only)
             import subprocess
             subprocess.run(["xdotool", "click", "1"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         except:
