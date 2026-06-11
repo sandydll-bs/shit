@@ -12,8 +12,6 @@ Filtra gli eseguibili, escludendo la maggior parte dei processi e servizi Window
 
 ## diagtrack (JAR)
 
-Estrae i file `.jar` usati con il parametro `-jar`.
-
 ```regex
 (?i)-jar\s+"?([^"\r\n]+\.jar)"?
 ```
@@ -22,7 +20,7 @@ Estrae i file `.jar` usati con il parametro `-jar`.
 
 ## msmpeng (JAR)
 
-Trova esecuzioni Java con `-jar`, escludendo `mail.jar`.
+Esclude `mail.jar`.
 
 ```regex
 (?i)^(?!.*(?:\\|/)mail\.jar\b).*java(?:w)?\.exe.*?-jar\s+"?([^"\r\n]+\.jar)
@@ -32,8 +30,6 @@ Trova esecuzioni Java con `-jar`, escludendo `mail.jar`.
 
 ## msmpeng (REGSVR32)
 
-Trova invocazioni semplici di `regsvr32` con DLL.
-
 ```regex
 (?i)^(?:regsvr32)(?:\.exe)?\s+[^\s"]+\.dll(?:\s+[A-Za-z_][A-Za-z0-9_]*)?$
 ```
@@ -41,8 +37,6 @@ Trova invocazioni semplici di `regsvr32` con DLL.
 ---
 
 ## msmpeng (RUNDLL32)
-
-Trova invocazioni semplici di `rundll32` con DLL.
 
 ```regex
 (?i)"?(?:[a-z]:\\windows\\system32\\)?rundll32\.exe"?\s+[a-z0-9_.-]+\.dll(?:\s+[a-z])?(?=\s|$)
@@ -52,7 +46,7 @@ Trova invocazioni semplici di `rundll32` con DLL.
 
 ## dwm (Cambio Ora)
 
-Trova modifiche dell'orario nel formato:
+Formato:
 
 ```text
 - time 10:10
@@ -66,12 +60,70 @@ Trova modifiche dell'orario nel formato:
 
 ## -s dps (Estensioni Spoofate)
 
-Mostra file con estensioni diverse da `.exe` nel formato:
-
-```text
-!!file.ext!YYYY/MM/DD:HH:MM:SS!hash!
-```
+Mostra file non `.exe`.
 
 ```regex
 (?i)^!![^!]+\.(?!(?:exe)!)[a-z0-9]+!\d{4}/\d{2}/\d{2}:\d{2}:\d{2}:\d{2}![0-9a-f]+!$
+```
+
+---
+
+## rpcss (JAR)
+
+Trova esecuzioni Java con `-jar`.
+
+```regex
+(?i)"?[^"\r\n]*javaw?\.exe"?\s+-jar\s+"?[^"\r\n]+\.jar"?
+```
+
+---
+
+## utcsvc (JAR)
+
+Trova esecuzioni Java con `-jar`.
+
+```regex
+(?i)[^"\r\n]*javaw?\.exe"?\s+-jar\s+"?[^"\r\n]+\.jar"?
+```
+
+---
+
+## LocalServiceNoNetworkFirewall (JAR)
+
+Estrae il nome del JAR senza percorso e senza estensione.
+
+Esempio:
+
+```text
+C:\Users\admin\Downloads\90lu7piu.jar
+```
+
+Output:
+
+```text
+90lu7piu
+```
+
+```regex
+(?i)[^\\]+(?=\.jar\b)
+```
+
+---
+
+## WebThreatDefense (JAR)
+
+Estrae il JAR dopo `-jar`.
+
+```regex
+(?i)-jar\s+"?([^"\s]+\.jar)
+```
+
+---
+
+## LocalSystemNetworkRestricted (JAR)
+
+Estrae il JAR dopo `-jar`.
+
+```regex
+(?i)-jar\s+"?([^"\s]+\.jar)
 ```
