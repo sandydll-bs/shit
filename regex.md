@@ -92,18 +92,6 @@ Trova esecuzioni Java con `-jar`.
 
 Estrae il nome del JAR senza percorso e senza estensione.
 
-Esempio:
-
-```text
-C:\Users\admin\Downloads\90lu7piu.jar
-```
-
-Output:
-
-```text
-90lu7piu
-```
-
 ```regex
 (?i)[^\\]+(?=\.jar\b)
 ```
