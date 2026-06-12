@@ -1,0 +1,211 @@
+  - [+] created temp file:
+  - [+] how much cps do you want do? (left clicker)
+  - [+] how much cps do you want do? (right clicker)
+  - [+] left clicker ->
+  - [+] right clicker ->
+  - [fox clicker]
+  - \\.\pipe\vapeclient.v4.
+  - actionpearl:
+  - ahk keybd
+  - ahk mouse
+  - ahora pone el mouse pero en la pechera y apreta alt
+  - ahora pone el mouse pero en las botas y apreta alt
+  - ahora pone el mouse pero en los pantalones y apreta alt
+  - aim assist
+  - aion_main
+  - airanchor
+  - aisgnacion de teclas:
+  - anchor and pearl right after to get low ground first
+  - anchor pearl
+  - anchor slot
+  - anti afk
+  - are you sure?
+  - asegurate de abrir el juego
+  - auto break shields with mace
+  - auto place and explode an anchor
+  - auto place obsidian and hit crystal
+  - auto shield breaker
+  - autoclick while breaking-blocks (warning: issues might occur)
+  - autoclicker
+  - automatically spams right click to exp faster
+  - automatically swaps to mace when swinging with your sword
+  - automatically uses axe to break shields
+  - average left cps :
+  - average right cps :
+  - axenta.des.resources
+  - axenta.form1.resources
+  - axenta.properties
+  - blatant
+  - blockhit
+  - breach swap
+  - btndestruct_click
+  - by fox services
+  - bypass
+  - cheat engine
+  - choose a reach value
+  - clear prefetch
+  - clear temp
+  - click on inventory
+  - click sound
+  - click sounds
+  - click to break in debugger!
+  - clicker
+  - clicker starting...
+  - cocaineclicker
+  - cocaineclicker.auth
+  - cocaineclicker.modules.misc
+  - con que tecla se va a realizar el switch:
+  - con que tecla se va a togglear el switch (activar/desactivar):
+  - configuracion de cordenadas
+  - configure your end crystal pvp automation
+  - couldn't find slinky_library.dll in memory. this shouldn't happen, redownload the crack.
+  - cps
+  - cracked by buxh
+  - crystal
+  - crystal slot
+  - dogshit
+  - dopeclicker.auth
+  - dopeclicker.flags
+  - dopeclicker.modules
+  - dopeclicker.security.protectedtypes
+  - dopeclicker.ui
+  - dopeclicker.utils
+  - double anchor
+  - double click to see the kaos youtube channel
+  - elytra swap
+  - elytra/chestplate slot
+  - en que tecla tenes el slot 3:
+  - en que tecla tenes el slot 4:
+  - en que tecla tenes el slot 5:
+  - enabled or not lol
+  - expands your cps slider if you want to click a higher cps
+  - ez cracked by @cuantox
+  - fast place
+  - fast xp
+  - fox clicker sucefully destructed
+  - fue detectado
+  - getasynckey
+  - github.com/trilliumsolutions
+  - githubclicker.sample.other
+  - hit crystal
+  - hotbar slots with pots
+  - http://www.opautoclicker.com0
+  - https://github.com/praiselily/slinkyloader
+  - https://www.youtube.com/@kaostm
+  - if (!moduleon || !anchoron)
+  - if (!moduleon || !attributeswapon)
+  - if (!moduleon || !breachswapon)
+  - if (!moduleon || !crystalon)
+  - if (!moduleon || !lungeon)
+  - if (!moduleon || !offhandon)
+  - if (!moduleon || !pearlcatchon)
+  - if (!moduleon || !pearlon)
+  - if (!moduleon || !shieldon)
+  - if (!moduleon || !xpon)
+  - injected %
+  - inventory d-hand
+  - invoke-click -button "left"
+  - invoke-click -button "right"
+  - isjitterclick
+  - jitter
+  - jitterclick
+  - kaos.menu.resources
+  - kaos.mods
+  - kaos.properties
+  - key pearl
+  - key_key.drop
+  - key_key.hotbar.1
+  - key_key.hotbar.2
+  - key_key.hotbar.3
+  - key_key.inventory
+  - key_key.jump
+  - key_key.sprint
+  - kill_click
+  - left cps
+  - leftjitter
+  - mas rapido va a ser pero mas probabilidad va a haber de que se bugee minimo 1
+  - max cps :
+  - max reach
+  - maximum cps are 20!
+  - mc only
+  - min cps :
+  - min reach
+  - minecraft found: %
+  - minecraft process found.
+  - minimum cps is 1!
+  - mouse_event
+  - mouse4
+  - mouse5
+  - mouseclick
+  - mouseclickdelay
+  - mouseeventargs
+  - mouseeventf_leftdown
+  - mouseeventf_leftup
+  - mouseeventf_middledown
+  - mouseeventf_middleup
+  - mouseeventf_move
+  - mouseeventf_rightdown
+  - mouseeventf_rightup
+  - mouseeventhandler
+  - no se detecto ninguna instancia de minecraft
+  - offhand hotbar totem
+  - offhands your hotbar totem when pressed
+  - online.vape.gg
+  - only sprinting
+  - par o fish.exe
+  - pearl catch
+  - pearl slot
+  - pinguino triste
+  - pluto solutions - injector
+  - pone el mouse en la seccion de armadura, especificamente en el casco y despues apreta la tecla alt
+  - prefetch_block
+  - presses totem slot when opening inventory.
+  - randomizes current cps in order to make the clicker undetectable server-side
+  - reach->
+  - reg delete "hkcu\software\microsoft\windows\currentversion\explorer\runmru" /f
+  - reg delete "hkcu\software\microsoft\windows\currentversion\explorer\shell folders\recent" /f
+  - reg delete "hkcu\software\microsoft\windows\currentversion\explorer\userassist" /f
+  - reg delete "hkey_current_user\software\microsoft\windows\shell\bags" /f
+  - reg delete "hkey_local_machine\system\mounteddevices" /f
+  - regdelvalue
+  - right cps
+  - rightclick
+  - self destruct
+  - selfdel
+  - sendseq(offhandseq1)
+  - set autoclicker toggle key
+  - set left_cps
+  - set right_cps
+  - setairon:
+  - shield stun
+  - single anchor
+  - slow hit crystal
+  - sololegendstgl_click_
+  - something went wrong while starting dope
+  - start https://www.vape.gg/support
+  - stun slam
+  - swaps to your elytra/chestplate slot and presses right click
+  - switches and throws pearl, then switches back
+  - tabcrystal
+  - themes
+  - title penguin macro switcher
+  - togglebreachswap
+  - togglecrystal
+  - toggleoffhand:
+  - togglepearl:
+  - togglepearlcatch:
+  - trackmouseevent
+  - vape has finished loading
+  - waiting for minecraft process...
+  - while holding the rmb before the lmb, the autoclicker won't work.
+  - writeprocessmemory
+  - www.opautoclicker.com
+  - www.vape.gg
+  - x1 mouse
+  - x2 mouse
+
+
+
+
+
+thanks MeowTonynoh
