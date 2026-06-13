@@ -37,7 +37,7 @@ $services = @(
     @{Name = "EventLog"; DisplayName = "Windows Event Log"},
     @{Name = "Schedule"; DisplayName = "Task Scheduler"},
     @{Name = "DcomLaunch"; DisplayName = "DCOM Server Process Launcher"},
-    @{Name = "PlugPlay"; DisplayName = "Plug and Play"},
+    @{Name = "PlugPlay"; DisplayName = "Plug and Play"}
 )
 
 foreach ($svc in $services) {
